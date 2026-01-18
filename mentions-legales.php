@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>FAST-QA — Mentions légales</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <!-- CSS FAST-QA -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<header class="header" id="top">
+  <div class="header-inner">
+    <div class="logo">
+      <img src="assets/favicon.png" alt="FAST-QA logo" />
+      <div class="brand">
+        <strong>FAST</strong><span>-QA</span>
+      </div>
+    </div>
+
+    <button class="burger" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav">
+      <a href="index.php#ecosystem">Écosystème</a>
+      <a href="index.php#problem">Pourquoi FAST</a>
+      <a href="mailto:contact@fast-qa.io">Contact</a>
+
+      <span class="lang-switch">
+        <a href="#" class="active">FR</a> |
+        <a href="legal.php">EN</a>
+      </span>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <section class="hero" style="padding-bottom:40px;">
+    <div class="hero-text">
+      <h1>Mentions légales</h1>
+      <p class="subtitle">
+        Informations légales relatives au site FAST-QA
+      </p>
+    </div>
+  </section>
+
+  <section class="problem" style="margin-bottom:120px; max-width:900px;">
+
+    <h2>Éditeur du site</h2>
+    <p>
+      <strong>FAST-QA</strong><br>
+      Franck LAUNAY — Entrepreneur individuel<br>
+      Nom commercial : FAST-QA
+    </p>
+
+    <p>
+      Adresse :<br>
+      1 bis rue de la Rouairie<br>
+      35410 Châteaugiron — France
+    </p>
+
+    <p>
+      Email : <a href="mailto:contact@fast-qa.io" style="color:#2f80ed;">contact@fast-qa.io</a><br>
+      Numéro SIREN : <strong>514 989 516</strong>
+    </p><br><br>
+
+    <h2>Responsable de la publication</h2>
+    <p>
+      Franck LAUNAY
+    </p><br><br>
+
+    <h2>Hébergement</h2>
+    <p>
+      Le site FAST-QA est hébergé par :
+    </p>
+    <p>
+      <strong>OVH SAS</strong><br>
+      2 rue Kellermann<br>
+      59100 Roubaix — France
+    </p>
+
+    <p>
+      Le code source, la roadmap et les éléments techniques du projet
+      sont hébergés sur <strong>GitHub</strong> (GitHub, Inc., États-Unis).
+    </p><br><br>
+
+    <h2>Propriété intellectuelle</h2>
+    <p>
+      L’ensemble des contenus présents sur le site FAST-QA
+      (textes, visuels, logos, structure, concepts et framework)
+      sont la propriété exclusive de FAST-QA, sauf mention contraire.
+    </p>
+
+    <p>
+      Toute reproduction, représentation ou diffusion, totale ou partielle,
+      sans autorisation écrite préalable est interdite.
+    </p><br><br>
+
+    <h2>Données personnelles</h2>
+    <p>
+      Le site FAST-QA ne collecte aucune donnée personnelle
+      via formulaire ou outil de suivi.
+    </p>
+
+    <p>
+      Les échanges par email sont strictement limités
+      aux demandes initiées par l’utilisateur.
+    </p>
+
+    <p>
+      Aucune donnée n’est cédée, vendue ou exploitée
+      à des fins commerciales.
+    </p><br><br>
+
+    <h2>Cookies</h2>
+    <p>
+      Le site FAST-QA n’utilise aucun cookie de suivi
+      ni outil de mesure d’audience.
+    </p><br><br>
+
+<h2>Usage du site</h2>
+<p>
+Le site FAST-QA est destiné à un usage professionnel.
+Les informations présentées ont pour objectif de décrire
+le positionnement, les services et les principes du framework FAST-QA.
+</p><br><br>
+
+<h2>Limitation de responsabilité</h2>
+<p>
+FAST-QA s’efforce de fournir des informations exactes et à jour.
+Toutefois, aucune garantie n’est donnée quant à l’exhaustivité
+ou l’actualité des contenus publiés.
+</p><br><br>
+
+<h2>Évolution du framework</h2>
+<p>
+Le framework FAST est en évolution continue.
+Les fonctionnalités, composants et connecteurs
+peuvent évoluer sans préavis.
+</p>
+<p>
+Cette évolution s’inscrit dans une démarche d’amélioration continue
+et de stabilité des faits dans le temps.
+</p><br>
+
+    <p style="margin-top:40px;">
+      <a href="#top" style="color:#2f80ed; text-decoration:none; font-size:14px;">
+        ↑ Retour en haut
+      </a>
+    </p>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  © FAST-QA 2026 — Franck Launay · Version 1.0
+  <p style="margin-top:16px; font-size:14px; color:#6b7280;">
+    Contact :
+    <a href="mailto:contact@fast-qa.io" style="color:#2f80ed; text-decoration:none; font-weight:500;">
+      contact@fast-qa.io
+    </a>
+  </p>
+</footer>
+
+<script>
+  const burger = document.querySelector('.burger');
+  const nav = document.querySelector('.nav');
+
+  burger.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('open');
+    burger.setAttribute('aria-expanded', isOpen);
+  });
+</script>
+
+</body>
+</html>

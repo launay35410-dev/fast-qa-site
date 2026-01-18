@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>FAST-QA — Site en construction</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <meta name="description" content="FAST-QA est un écosystème QA fondé sur les faits : audit, formation et framework de traçabilité pour une qualité logicielle lisible et durable.">
+  <!-- CSS FAST-QA -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <header class="header" id="top">
+  <div class="header-inner">
+  <div class="logo">
+    <img src="assets/favicon.png" alt="FAST-QA logo" />
+    <div class="brand">
+      <strong>FAST</strong><span>-QA</span>
+    </div>
+  </div>
+
+  <button class="burger" aria-label="Open menu" aria-expanded="false">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <nav class="nav">
+    <a href="#ecosystem">Écosystème</a>
+    <a href="#problem">Pourquoi FAST</a>
+    <a href="mailto:contact@fast-qa.io">Contact</a>
+
+    <span class="lang-switch">
+      <a href="#" class="active">FR</a> |
+      <a href="en.php">EN</a>
+    </span>
+  </nav>
+</div>
+</header>
+
+  <main class="container">
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>
+          Structurer la qualité logicielle,<br>
+          du diagnostic aux faits
+        </h1>
+
+        <p class="subtitle">
+          Audit, formation et framework pour une QA lisible, traçable et durable.
+        </p>
+
+       <div class="construction">
+        🚧 Site FAST-QA en cours de construction — ouverture progressive
+      </div>
+
+      <p class="contact-inline">
+        Contact : <a href="mailto:contact@fast-qa.io">contact@fast-qa.io</a>
+      </p>
+      </div>
+
+      <div class="hero-visual">
+        <img src="assets/sphere-main.png" alt="Sphère FAST-QA" />
+      </div>
+    </section>
+    <!-- PROBLÈME -->
+   <section class="problem" id="problem" style="margin-bottom:120px;">
+  <h2>Pourquoi la QA devient difficile à piloter dans le temps&nbsp;?</h2>
+
+  <p>
+    Dans la plupart des organisations, la QA ne manque pas d’outils.<br>
+    Elle manque de <strong style="color:#2f80ed;">lisibilité dans la durée</strong>.<br>
+    Avec le temps
+  </p>
+  <ul>
+    <li>les intentions de test se perdent &nbsp;;</li>
+    <li>les liens entre besoins, scénarios et résultats se diluent&nbsp;;</li>
+    <li>les décisions reposent sur des interprétations.</li>
+  </ul>
+
+  <p>
+    Ce n’est pas un problème d’outillage mais de
+    <strong style="color:#2f80ed;"> compréhension dans le temps.</strong>
+  </p>
+</p>
+<p style="margin-top:24px;">
+  <a href="#top" style="color:#2f80ed; text-decoration:none; font-size:14px;">
+    ↑ Retour en haut
+  </a>
+</p>
+<section class="cards" id="ecosystem">
+
+  <div class="card">
+    <div class="card-header">
+      <img src="assets/sphere-services.png" alt="" />
+      <h3>FAST · Frame</h3>
+    </div>
+
+    <p><strong>Audit & diagnostic QA</strong></p>
+
+    <ul style="list-style-type: circle;">
+      <li>Audit des pratiques QA existantes</li>
+      <li>Évaluation de la maturité qualité et de la traçabilité</li>
+      <li>Identification des risques liés à la perte de lisibilité dans le temps</li>
+    </ul>
+
+    <p>
+      <strong>Aligner et structurer les pratiques QA sans les dénaturer.</strong>
+    </p>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <img src="assets/sphere-fomration.png" alt="" />
+      <h3>FAST · Support</h3>
+    </div>
+
+    <p><strong>Formation & accompagnement QA</strong></p>
+
+    <ul style="list-style-type: circle;">
+      <li>Fondamentaux QA orientés faits et traçabilité</li>
+      <li>Méthodes de test (fonctionnel, BDD, exploratoire)</li>
+      <li>Accompagnement des équipes dans la durée</li>
+    </ul>
+
+    <p>
+      <strong>Former, transmettre et rendre les équipes autonomes.</strong>
+    </p>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <img src="assets/sphere-framework.png" alt="" />
+      <h3>FAST · Framework</h3>
+    </div>
+
+    <p><strong>Traçabilité factuelle des tests</strong></p>
+
+    <ul style="list-style-type: circle;">
+      <li>CLI pour collecter et structurer les faits de test</li>
+      <li>Connecteurs QA (tests manuels et automatisés)</li>
+      <li>WebApp de lecture factuelle (read-only, facts-only)</li>
+    </ul>
+
+    <p>
+      <strong>Capitaliser durablement les faits de test à travers un socle technique neutre et lisible.</strong>
+    </p>
+  </div>
+
+</section>
+<p style="margin-top:24px;">
+  <a href="#top" style="color:#2f80ed; text-decoration:none; font-size:14px;">
+    ↑ Retour en haut
+  </a>
+</p>
+
+<section class="manifest">
+  <div class="brand">
+    <strong>FAST</strong><span>-QA</span>
+  </div>
+  <p>
+    n’est pas un outil de test.<br>
+    C’est un cadre fondé sur les faits.
+  </p>
+</section>
+  </main>
+
+  <footer class="footer">
+    © FAST-QA 2026 — Franck Launay · Version 1.0
+    <p style="margin-top:16px; font-size:14px; color:#6b7280;">
+      Contactez-nous :
+      <a href="mailto:contact@fast-qa.io" style="color:#2f80ed; text-decoration:none; font-weight:500;">
+        contact@fast-qa.io
+      </a>
+    </p>
+     <p style="margin-top:8px; font-size:13px;">
+  <a href="mentions-legales.php" style="color:#6b7280; text-decoration:none;">
+    Mentions légales
+  </a>
+  </footer>
+<script>
+  const burger = document.querySelector('.burger');
+  const nav = document.querySelector('.nav');
+
+  burger.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('open');
+    burger.setAttribute('aria-expanded', isOpen);
+  });
+</script>
+
+</body>
+
+</html>

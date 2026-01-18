@@ -1,0 +1,16 @@
+# Sécurité de base
+Options +FollowSymLinks
+Options -Indexes
+
+# Déclare explicitement les fichiers index
+DirectoryIndex index.html index.php
+
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirection www -> non-www
+RewriteCond %{HTTP_HOST} ^www\.fast-qa\.io$ [NC]
+RewriteRule ^ https://fast-qa.io%{REQUEST_URI} [L,R=301]
