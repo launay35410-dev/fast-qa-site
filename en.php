@@ -120,7 +120,24 @@
       <strong>Align and structure QA practices without distorting them.</strong>
     </p>
   </div>
+<div class="card">
+  <div class="card-header">
+    <img src="assets/sphere-service1.png" alt="" />
+    <h3>FAST · Align</h3>
+  </div>
 
+  <p><strong>QA maturity enablement & practice structuring</strong></p>
+
+  <ul style="list-style-type: circle;">
+    <li>Definition and implementation of appropriate testing methods and tools</li>
+    <li>Support for FAST Framework adoption and rollout</li>
+    <li>Structuring and aligning existing QA practices</li>
+  </ul>
+
+  <p>
+    <strong>Empowering teams towards QA maturity and autonomy.</strong>
+  </p>
+</div>
   <div class="card">
     <div class="card-header">
       <img src="assets/sphere-fomration.png" alt="" />

@@ -115,7 +115,24 @@
       <strong>Aligner et structurer les pratiques QA sans les dénaturer.</strong>
     </p>
   </div>
+<div class="card">
+    <div class="card-header">
+      <img src="assets/sphere-service1.png" alt="" />
+      <h3>FAST · Align</h3>
+    </div>
 
+    <p><strong>Accompagnement maturité & structuration des pratiques QA</strong></p>
+
+    <ul style="list-style-type: circle;">
+      <li>Mise en place de méthodes et d’outils de test adaptés</li>
+      <li>Accompagnement au déploiement du FAST Framework</li>
+      <li>Structuration des pratiques QA existantes</li>
+    </ul>
+
+    <p>
+      <strong>Accompagner les équipes vers l’autonomie et la maturité QA.</strong>
+    </p>
+  </div>
   <div class="card">
     <div class="card-header">
       <img src="assets/sphere-fomration.png" alt="" />
