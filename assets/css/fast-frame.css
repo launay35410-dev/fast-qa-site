@@ -1,0 +1,60 @@
+/* ============================
+   FAST · Frame — Page layout
+   ============================ */
+
+/* HERO plus compact */
+.hero {
+  margin-top: 48px;
+  gap: 48px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+}
+
+/* Sections plus denses */
+.problem {
+  margin-top: 56px;
+  max-width: 880px;
+}
+
+/* Titres plus structurants */
+.problem h2 {
+  margin-bottom: 16px;
+  padding-left: 12px;
+  border-left: 4px solid var(--blue-fast);
+}
+
+/* Paragraphes plus serrés */
+.problem p {
+  margin-bottom: 16px;
+  line-height: 1.55;
+}
+
+/* Listes : plus lisibles, moins aérées */
+.problem ul {
+  margin-top: 16px;
+  margin-bottom: 20px;
+  padding-left: 22px;
+}
+
+.problem li {
+  margin-bottom: 8px;
+}
+
+/* Mise en valeur des sections clés */
+.problem:nth-of-type(odd) {
+  background: rgba(47, 128, 237, 0.03);
+  padding: 32px 32px;
+  border-radius: 16px;
+}
+
+/* Séparation visuelle douce entre sections */
+.problem + .problem {
+  margin-top: 64px;
+}
+
+/* Hero visual un peu plus présent */
+.hero-visual img {
+  max-width: 460px;
+}

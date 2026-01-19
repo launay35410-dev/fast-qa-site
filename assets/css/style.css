@@ -283,6 +283,21 @@ body {
   font-size: 20px;
   padding: 48px 0;
 }
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.card-link * {
+  text-decoration: none;
+  color: inherit;
+}
+.card-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(47, 128, 237, 0.12);
+  transition: all 0.2s ease;
+}
+
 
 /* =========================
    FOOTER
@@ -371,4 +386,14 @@ body {
   .contact-inline {
     margin-bottom: 24px;
   }
+}
+.fast-brand strong {
+  color: var(--text-main); /* noir */
+ 
+  font-weight: 700;
+}
+
+.fast-brand span {
+   color: var(--blue-fast); /* bleu FAST */
+  font-weight: 700;
 }

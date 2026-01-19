@@ -92,19 +92,28 @@
 </p>
 <section class="cards" id="ecosystem">
 
-  <div class="card">
-    <div class="card-header">
-      <img src="assets/sphere-services.png" alt="" />
-      <h3>FAST · Frame</h3>
-    </div>
+  <a href="fast-frame.php" class="card card-link">
+  <div class="card-header">
+    <img src="assets/sphere-services.png" alt="" />
+    <h3>
+      <span class="fast-brand">
+        <strong>FAST</strong><span> · Frame</span>
+      </span>
+    </h3>
+  </div>
 
-    <p><strong>Audit & diagnostic QA</strong></p>
+  <p><strong>Audit & diagnostic QA</strong></p>
 
-    <ul style="list-style-type: circle;">
-      <li>Audit des pratiques QA existantes</li>
-      <li>Évaluation de la maturité qualité et de la traçabilité</li>
-      <li>Identification des risques liés à la perte de lisibilité dans le temps</li>
-    </ul>
+  <ul style="list-style-type: circle;">
+    <li>Audit des pratiques QA existantes</li>
+    <li>Évaluation de la maturité qualité et de la traçabilité</li>
+    <li>Identification des risques liés à la perte de lisibilité dans le temps</li>
+  </ul>
+
+  <p>
+    <strong>Aligner et structurer les pratiques QA sans les dénaturer.</strong>
+  </p>
+</a>
 
     <p>
       <strong>Aligner et structurer les pratiques QA sans les dénaturer.</strong>
