@@ -115,14 +115,12 @@
   </p>
 </a>
 
-    <p>
-      <strong>Aligner et structurer les pratiques QA sans les dénaturer.</strong>
-    </p>
-  </div>
 <div class="card">
     <div class="card-header">
       <img src="assets/sphere-service1.png" alt="" />
-      <h3>FAST · Align</h3>
+      <span class="fast-brand">
+      <h3><strong>FAST</strong><span> · Align</span></h3>
+      </span>
     </div>
 
     <p><strong>Accompagnement maturité & structuration des pratiques QA</strong></p>
@@ -140,9 +138,10 @@
   <div class="card">
     <div class="card-header">
       <img src="assets/sphere-fomration.png" alt="" />
-      <h3>FAST · Support</h3>
-    </div>
-
+      <span class="fast-brand">
+      <h3><strong>FAST</strong><span>  · Support</span></h3>
+</span>
+</div>
     <p><strong>Formation & accompagnement QA</strong></p>
 
     <ul style="list-style-type: circle;">
@@ -159,7 +158,9 @@
   <div class="card">
     <div class="card-header">
       <img src="assets/sphere-framework.png" alt="" />
-      <h3>FAST · Framework</h3>
+      <span class="fast-brand">
+      <h3><strong>FAST</strong><span> · Framework</span></h3>
+      </span>
     </div>
 
     <p><strong>Traçabilité factuelle des tests</strong></p>
