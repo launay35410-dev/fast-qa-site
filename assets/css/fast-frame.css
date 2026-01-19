@@ -58,3 +58,22 @@
 .hero-visual img {
   max-width: 460px;
 }
+/* ===== Mobile navigation (burger) ===== */
+@media (max-width: 900px) {
+  .nav {
+    display: none;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+    z-index: 1000;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+}

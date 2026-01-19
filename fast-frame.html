@@ -35,7 +35,7 @@
     </button>
 
     <nav class="nav">
-      <a href="index.html#ecosystem">Écosystème</a>
+      <a href="index.html">Écosystème</a>
       <a href="index.html">Pourquoi FAST</a>
       <a href="mailto:contact@fast-qa.io">Contact</a>
 
@@ -206,7 +206,7 @@
         </p>
 
         <p style="margin-top:8px; font-size:13px;">
-            <a href="mentions-legales.html" style="color:#6b7280; text-decoration:none;">
+            <a href="mentions-legales.php" style="color:#6b7280; text-decoration:none;">
                 Mentions légales
             </a>
         </p>
@@ -237,6 +237,15 @@
 
         </p>
     </footer>
+<script>
+  const burger = document.querySelector('.burger');
+  const nav = document.querySelector('.nav');
+
+  burger.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('open');
+    burger.setAttribute('aria-expanded', isOpen);
+  });
+</script>
 
 </body>
 

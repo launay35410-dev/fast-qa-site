@@ -41,7 +41,7 @@
 
       <span class="lang-switch">
         <a href="fast-frame.php" class="active">FR</a> |
-        <a href="fast-frame.php">EN</a>
+        <a href="fast-frame-en.php">EN</a>
       </span>
     </nav>
         </div>
@@ -237,6 +237,15 @@
 
         </p>
     </footer>
+<script>
+  const burger = document.querySelector('.burger');
+  const nav = document.querySelector('.nav');
+
+  burger.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('open');
+    burger.setAttribute('aria-expanded', isOpen);
+  });
+</script>
 
 </body>
 
