@@ -59,7 +59,7 @@
 
        <div class="construction">
         🚧 Site FAST-QA en cours de construction — ouverture progressive
-      </div>
+      </div></div>
 
       <div class="hero-visual">
         <img src="assets/sphere-main.png" alt="Sphère FAST-QA" />
