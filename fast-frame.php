@@ -41,7 +41,7 @@
 
       <span class="lang-switch">
         <a href="fast-frame.php" class="active">FR</a> |
-        <a href="en/fast-frame.php">EN</a>
+        <a href="fast-frame.php">EN</a>
       </span>
     </nav>
         </div>
