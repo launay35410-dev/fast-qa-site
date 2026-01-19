@@ -13,7 +13,9 @@
   <meta name="description" content="FAST-QA is a fact-based QA ecosystem: audit, training and a traceability framework for readable, long-term software quality.">
 
   <!-- CSS FAST-QA -->
-  <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+ 
 </head>
 
 <body>
@@ -63,10 +65,12 @@
       <div class="construction">
         🚧 FAST-QA is currently under progressive deployment
       </div>
- </div>
-    <div class="hero-visual">
-      <img src="assets/sphere-main.png" alt="FAST-QA sphere" />
-    </div>
+      </div>
+
+  
+  <div class="hero-visual">
+    <img src="assets/sphere-main.png" alt="Sphère FAST-QA" />
+  </div>
   </section>
 
   <!-- PROBLEM -->
@@ -96,7 +100,7 @@
     </a>
   </p>
 <section class="cards" id="ecosystem">
-<a href="fast-frame.html" class="card card-link">
+<a href="fast-frame-en.php" class="card card-link">
   <div class="card-header">
     <img src="assets/sphere-services.png" alt="" />
     <h3>
@@ -136,6 +140,7 @@
     <strong>Empowering teams towards QA maturity and autonomy.</strong>
   </p>
 </div>
+
   <div class="card">
     <div class="card-header">
       <img src="assets/sphere-fomration.png" alt="" />
