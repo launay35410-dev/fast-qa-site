@@ -213,6 +213,26 @@
         contact@fast-qa.io
       </a>
     </p>
+    <p style="margin-top:12px; font-size:14px; color:#6b7280;
+          display:flex; gap:8px; justify-content:center; align-items:center;">
+
+  <!-- Document / roadmap icon -->
+  <svg xmlns="http://www.w3.org/2000/svg"
+       viewBox="0 0 24 24"
+       width="16"
+       height="16"
+       fill="currentColor"
+       style="opacity:.6;">
+    <path d="M4 2h10l6 6v14a2 2 0 0 1-2 2H4
+             a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm10 1.5V8h4.5"/>
+  </svg>
+
+  <a href="fast-roadmap-en.php"
+     style="color:#2f80ed; text-decoration:none; font-weight:500;">
+      FAST Roadmap . Framework (transition document)
+  </a>
+
+</p>
      <p style="margin-top:8px; font-size:13px;">
   <a href="mentions-legales.php" style="color:#6b7280; text-decoration:none;">
     Mentions légales

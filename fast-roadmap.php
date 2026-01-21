@@ -210,7 +210,7 @@
   </section>
 
   <p style="margin-top:32px;">
-    <a href="fast-framework.html" style="color:#2f80ed; text-decoration:none;">
+    <a href="fast-framework.php" style="color:#2f80ed; text-decoration:none;">
       ← Retour au framework
     </a>
   </p>
