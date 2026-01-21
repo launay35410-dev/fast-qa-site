@@ -40,8 +40,8 @@
     </button>
 
     <nav class="nav">
-      <a href="index.php#ecosystem">Ecosystem</a>
-      <a href="index.php#problem">Why FAST</a>
+      <a href="index.php">Ecosystem</a>
+      <a href="index.php">Why FAST</a>
       <a href="mailto:contact@fast-qa.io">Contact</a>
 
       <span class="lang-switch">
@@ -67,8 +67,7 @@
 
       <p class="subtitle">
         QA audit and diagnostic to <strong>understand</strong>,
-        <strong>structure</strong> and
-        <strong>decide based on facts</strong>.
+        <strong style="color:#2f80ed;">structure</strong> and <strong style="color:#2f80ed;">decide based on facts</strong>.
       </p>
     </div>
 
@@ -95,7 +94,7 @@
     </p>
 
     <p>
-      Over time, <strong>readability degrades</strong>.
+      Over time, <strong style="color:#2f80ed;">readability degrades</strong>.
       QA decisions increasingly rely on interpretations,
       due to the lack of clearly exploitable facts over time.
     </p>
@@ -129,7 +128,7 @@
     </ul>
 
     <p>
-      This is a <strong>work of observation and understanding</strong>,
+      This is a <strong style="color:#2f80ed;">work of observation and understanding</strong>,
       not a compliance or normative audit.
     </p>
 
@@ -145,8 +144,13 @@
       <li>An assessment of maturity and fragility points</li>
       <li>
         An objective foundation to structure next steps (
-        <span class="fast-brand"><strong>FAST</strong><span> · Align</span></span> /
-        <span class="fast-brand"><strong>FAST</strong><span> · Framework</span></span>
+       <span class="fast-brand">
+                       <a href="fast-align-en.php"> <strong>FAST</strong><span> · Align</span> </a>
+                    </span>
+                    /
+                    <span class="fast-brand">
+                       <a href="fast-framework-en.php"> <strong>FAST</strong><span> · Framework</span></a>
+                    </span>
         )
       </li>
     </ul>

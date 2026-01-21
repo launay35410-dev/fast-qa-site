@@ -3,54 +3,56 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>FAST-QA — Coming soon</title>
+  <title>FAST-QA — Website under construction</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Favicon -->
+
   <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-  <meta name="description" content="FAST-QA is a fact-based QA ecosystem: audit, training and a traceability framework for readable, long-term software quality.">
+
+  <meta name="description"
+        content="FAST-QA is a fact-based QA ecosystem: audit, support and traceability framework for sustainable software quality.">
 
   <!-- CSS FAST-QA -->
-
-    <link rel="stylesheet" href="assets/css/style.css">
- 
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-<header class="header">
+<header class="header" id="top">
   <div class="header-inner">
-  <div class="logo">
-    <img src="assets/favicon.png" alt="FAST-QA logo" />
-    <div class="brand">
-      <strong>FAST</strong><span>-QA</span>
+
+    <div class="logo">
+      <img src="assets/favicon.png" alt="FAST-QA logo" />
+      <div class="brand">
+        <strong>FAST</strong><span>-QA</span>
+      </div>
     </div>
+
+    <button class="burger" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav">
+      <a href="#ecosystem">Ecosystem</a>
+      <a href="#problem">Why FAST</a>
+      <a href="mailto:contact@fast-qa.io">Contact</a>
+
+      <span class="lang-switch">
+        <a href="index.php">FR</a> |
+        <a href="index-en.php" class="active">EN</a>
+      </span>
+    </nav>
+
   </div>
-
-  <button class="burger" aria-label="Open menu" aria-expanded="false">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-
-  <nav class="nav">
-    <a href="#ecosystem">Ecosystem</a>
-    <a href="#problem">Why FAST</a>
-    <a href="mailto:contact@fast-qa.io">Contact</a>
-
-    <span class="lang-switch">
-      <a href="#" class="active">EN</a> |
-      <a href="index.php">FR</a>
-    </span>
-  </nav>
-</div>
-
 </header>
 
 <main class="container">
 
+  <!-- HERO -->
   <section class="hero">
     <div class="hero-text">
       <h1>
@@ -59,146 +61,172 @@
       </h1>
 
       <p class="subtitle">
-        A QA approach based on facts, traceability, and readability over time.
+        A QA approach based on facts, traceability and long-term readability.
       </p>
 
       <div class="construction">
-        🚧 FAST-QA is currently under progressive deployment
+        🚧 FAST-QA website under construction — progressive rollout
       </div>
-      </div>
+    </div>
 
-  
-  <div class="hero-visual">
-    <img src="assets/sphere-main.png" alt="Sphère FAST-QA" />
-  </div>
+    <div class="hero-visual">
+      <img src="assets/sphere-main.png" alt="FAST-QA sphere" />
+    </div>
   </section>
 
   <!-- PROBLEM -->
   <section class="problem" id="problem" style="margin-bottom:120px;">
-  <h2>Why does QA become difficult to manage over time?</h2>
+    <h2>Why does QA become difficult to manage over time?</h2>
 
-  <p>
-    In most organizations, QA does not lack tools.<br>
-    It lacks <strong style="color:#2f80ed;">long-term clarity</strong>.<br>
-    Over time:
-  </p>
+    <p>
+      In most organizations, QA does not lack tools.<br>
+      It lacks <strong style="color:#2f80ed;">long-term readability</strong>.<br>
+      Over time:
+    </p>
 
-  <ul>
-    <li>test intentions fade;</li>
-    <li>links between requirements, scenarios, and results weaken;</li>
-    <li>decisions increasingly rely on interpretation.</li>
-  </ul>
+    <ul>
+      <li>test intentions get lost;</li>
+      <li>links between requirements, scenarios and results fade;</li>
+      <li>decisions rely on interpretations.</li>
+    </ul>
 
-  <p>
-    This is not a tooling issue but a matter of
-    <strong style="color:#2f80ed;">understanding over time</strong>.
-  </p>
+    <p>
+      This is not a tooling problem, but a
+      <strong style="color:#2f80ed;">long-term understanding issue.</strong>
+    </p>
+
+    <p style="margin-top:24px;">
+      <a href="#top" style="color:#2f80ed; text-decoration:none; font-size:14px;">
+        ↑ Back to top
+      </a>
+    </p>
+  </section>
+
+  <!-- ECOSYSTEM -->
+  <section class="cards" id="ecosystem">
+
+    <!-- FAST · Frame -->
+    <a href="fast-frame-en.php" class="card card-link">
+      <div class="card-header">
+        <img src="assets/sphere-services.png" alt="" />
+        <h3>
+          <span class="fast-brand">
+            <strong>FAST</strong><span> · Frame</span>
+          </span>
+        </h3>
+      </div>
+
+      <p><strong>QA audit & diagnostic</strong></p>
+
+      <ul style="list-style-type: circle;">
+        <li>Analysis of existing QA practices</li>
+        <li>Assessment of quality maturity and traceability</li>
+        <li>Identification of risks related to loss of long-term readability</li>
+      </ul>
+
+      <p>
+        <strong>Align and structure QA practices without distorting them.</strong>
+      </p>
+    </a>
+
+    <!-- FAST · Align -->
+    <a href="fast-align-en.php" class="card card-link">
+      <div class="card-header">
+        <img src="assets/sphere-service1.png" alt="" />
+        <h3>
+          <span class="fast-brand">
+            <strong>FAST</strong><span> · Align</span>
+          </span>
+        </h3>
+      </div>
+
+      <p><strong>QA maturity & practice alignment support</strong></p>
+
+      <ul style="list-style-type: circle;">
+        <li>Implementation of adapted testing methods and tools</li>
+        <li>Support for FAST Framework deployment</li>
+        <li>Structuring existing QA practices</li>
+      </ul>
+
+      <p>
+        <strong>Supporting teams toward autonomy and QA maturity.</strong>
+      </p>
+    </a>
+
+    <!-- FAST · Support -->
+    <a href="fast-support-en.php" class="card card-link">
+      <div class="card-header">
+        <img src="assets/sphere-fomration.png" alt="" />
+        <h3>
+          <span class="fast-brand">
+            <strong>FAST</strong><span> · Support</span>
+          </span>
+        </h3>
+      </div>
+
+      <p><strong>QA training & ongoing support</strong></p>
+
+      <ul style="list-style-type: circle;">
+        <li>Fact-based and traceability-oriented QA fundamentals</li>
+        <li>Testing methods (functional, BDD, exploratory)</li>
+        <li>Long-term team support</li>
+      </ul>
+
+      <p>
+        <strong>Train, transfer knowledge and empower teams.</strong>
+      </p>
+    </a>
+
+    <!-- FAST · Framework -->
+    <a href="fast-framework-en.php" class="card card-link">
+      <div class="card-header">
+        <img src="assets/sphere-framework.png" alt="" />
+        <h3>
+          <span class="fast-brand">
+            <strong>FAST</strong><span> · Framework</span>
+          </span>
+        </h3>
+      </div>
+
+      <p><strong>Fact-based test traceability</strong></p>
+
+      <ul style="list-style-type: circle;">
+        <li>CLI to collect and structure test facts</li>
+        <li>QA connectors (manual and automated tests)</li>
+        <li>Fact-based read-only WebApp (facts-only)</li>
+      </ul>
+
+      <p>
+        <strong>
+          Sustainably capitalizing test facts through a neutral and readable
+          technical foundation.
+        </strong>
+      </p>
+    </a>
+
+  </section>
 
   <p style="margin-top:24px;">
     <a href="#top" style="color:#2f80ed; text-decoration:none; font-size:14px;">
       ↑ Back to top
     </a>
   </p>
-<section class="cards" id="ecosystem">
-<a href="fast-frame-en.php" class="card card-link">
-  <div class="card-header">
-    <img src="assets/sphere-services.png" alt="" />
-    <h3>
-      <span class="fast-brand">
-        <strong>FAST</strong><span> · Frame</span>
-      </span>
-    </h3>
-  </div>
 
-    <p><strong>QA audit & diagnostic</strong></p>
-
-    <ul style="list-style-type: circle;">
-      <li>Audit of existing QA practices</li>
-      <li>Quality maturity and traceability assessment</li>
-      <li>Identification of risks caused by loss of clarity over time</li>
-    </ul>
-
-    <p>
-      <strong>Align and structure QA practices without distorting them.</strong>
-    </p>
-</a>
-<div class="card">
-  <div class="card-header">
-    <img src="assets/sphere-service1.png" alt="" />
-    <h3>FAST · Align</h3>
-  </div>
-
-  <p><strong>QA maturity enablement & practice structuring</strong></p>
-
-  <ul style="list-style-type: circle;">
-    <li>Definition and implementation of appropriate testing methods and tools</li>
-    <li>Support for FAST Framework adoption and rollout</li>
-    <li>Structuring and aligning existing QA practices</li>
-  </ul>
-
-  <p>
-    <strong>Empowering teams towards QA maturity and autonomy.</strong>
-  </p>
-</div>
-
-  <div class="card">
-    <div class="card-header">
-      <img src="assets/sphere-fomration.png" alt="" />
-      <h3>FAST · Support</h3>
+  <section class="manifest">
+    <div class="brand">
+      <strong>FAST</strong><span>-QA</span>
     </div>
-
-    <p><strong>QA training & enablement</strong></p>
-
-    <ul style="list-style-type: circle;">
-      <li>QA fundamentals focused on facts and traceability</li>
-      <li>Testing methods (functional, BDD, exploratory)</li>
-      <li>Long-term team support and coaching</li>
-    </ul>
-
     <p>
-      <strong>Train, share knowledge and make teams autonomous.</strong>
+      is not a testing tool.<br>
+      It is a fact-based framework.
     </p>
-  </div>
-
-  <div class="card">
-    <div class="card-header">
-      <img src="assets/sphere-framework.png" alt="" />
-      <h3>FAST · Framework</h3>
-    </div>
-
-    <p><strong>Factual test traceability</strong></p>
-
-    <ul style="list-style-type: circle;">
-      <li>CLI to collect and structure test facts</li>
-      <li>QA connectors (manual and automated testing)</li>
-      <li>Read-only, facts-only web application</li>
-    </ul>
-
-    <p>
-      <strong>Durably capitalize test facts through a neutral and readable technical foundation.</strong>
-    </p>
-  </div>
-
-</section>
-<p style="margin-top:24px;">
-  <a href="#top" style="color:#2f80ed; text-decoration:none; font-size:14px;">
-    ↑ Back to top
-  </a>
-</p>
-<section class="manifest">
-  <div class="brand">
-    <strong>FAST</strong><span>-QA</span>
-  </div>
-  <p>
-    is not a testing tool.<br>
-    It is a fact-based framework.
-  </p>
-</section>
+  </section>
 
 </main>
 
 <footer class="footer">
   © FAST-QA 2026 — Franck Launay · Version 1.0
+
   <p style="margin-top:16px; font-size:14px; color:#6b7280;">
     Contact:
     <a href="mailto:contact@fast-qa.io"
@@ -206,46 +234,44 @@
       contact@fast-qa.io
     </a>
   </p>
+
   <p style="margin-top:8px; font-size:13px;">
-  <a href="legal.php" style="color:#6b7280; text-decoration:none;">
-    Legal notice
-  </a>
-</p>
-<p style="margin-top:12px; font-size:14px; color:#6b7280; display:flex; gap:12px; justify-content:center;">
-  
-  <a href="https://www.linkedin.com/in/franck-launay-10b48017"
-     target="_blank"
-     rel="noopener"
-     style="display:flex; align-items:center; gap:6px; color:#2f80ed; text-decoration:none;">
-     
-    <!-- Icon -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-         width="18" height="18" fill="currentColor">
-      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.476-.9 1.637-1.85 3.369-1.85 3.601 0 4.267 2.368 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.919-2.064 2.063-2.064 1.14 0 2.064.926 2.064 2.064 0 1.139-.924 2.065-2.064 2.065zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .771 0 1.723v20.555C0 23.229.792 24 1.771 24h20.451C23.2 24 24 23.229 24 22.278V1.723C24 .771 23.2 0 22.222 0z"/>
-    </svg>
+    <a href="legal.php" style="color:#6b7280; text-decoration:none;">
+      Legal notice
+    </a>
+  </p>
 
-    Franck Launay
-  </a>
+  <p style="margin-top:12px; font-size:14px; color:#6b7280;
+            display:flex; gap:12px; justify-content:center;">
 
-  <span style="opacity:.4;">·</span>
+    <a href="https://www.linkedin.com/in/franck-launay-10b48017"
+       target="_blank" rel="noopener"
+       style="display:flex; align-items:center; gap:6px;
+              color:#2f80ed; text-decoration:none;">
+      <!-- LinkedIn icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+           width="18" height="18" fill="currentColor">
+        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.476-.9 1.637-1.85 3.369-1.85 3.601 0 4.267 2.368 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.919-2.064 2.063-2.064 1.14 0 2.064.926 2.064 2.064 0 1.139-.924 2.065-2.064 2.065zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .771 0 1.723v20.555C0 23.229.792 24 1.771 24h20.451C23.2 24 24 23.229 24 22.278V1.723C24 .771 23.2 0 22.222 0z"/>
+      </svg>
+      Franck Launay
+    </a>
 
-  <a href="https://www.linkedin.com/company/fast-qa/"
-     target="_blank"
-     rel="noopener"
-     style="display:flex; align-items:center; gap:6px; color:#2f80ed; text-decoration:none;">
+    <span style="opacity:.4;">·</span>
 
-    <!-- Icon -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-         width="18" height="18" fill="currentColor">
-      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.476-.9 1.637-1.85 3.369-1.85 3.601 0 4.267 2.368 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.919-2.064 2.063-2.064 1.14 0 2.064.926 2.064 2.064 0 1.139-.924 2.065-2.064 2.065zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .771 0 1.723v20.555C0 23.229.792 24 1.771 24h20.451C23.2 24 24 23.229 24 22.278V1.723C24 .771 23.2 0 22.222 0z"/>
-    </svg>
+    <a href="https://www.linkedin.com/company/fast-qa/"
+       target="_blank" rel="noopener"
+       style="display:flex; align-items:center; gap:6px;
+              color:#2f80ed; text-decoration:none;">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+           width="18" height="18" fill="currentColor">
+        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.476-.9 1.637-1.85 3.369-1.85 3.601 0 4.267 2.368 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.919-2.064 2.063-2.064 1.14 0 2.064.926 2.064 2.064 0 1.139-.924 2.065-2.064 2.065zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .771 0 1.723v20.555C0 23.229.792 24 1.771 24h20.451C23.2 24 24 23.229 24 22.278V1.723C24 .771 23.2 0 22.222 0z"/>
+      </svg>
+      FAST-QA
+    </a>
 
-    FAST-QA
-  </a>
-
-</p>
-
+  </p>
 </footer>
+
 <script>
   const burger = document.querySelector('.burger');
   const nav = document.querySelector('.nav');

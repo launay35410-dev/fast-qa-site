@@ -35,8 +35,8 @@
     </button>
 
     <nav class="nav">
-      <a href="index.php#ecosystem">Écosystème</a>
-      <a href="index.php#problem">Pourquoi FAST</a>
+      <a href="index.php">Écosystème</a>
+      <a href="index.php">Pourquoi FAST</a>
       <a href="mailto:contact@fast-qa.io">Contact</a>
 
       <span class="lang-switch">
@@ -118,9 +118,7 @@
             </ul><br>
 
             <p>
-                Il s’agit d’un <strong><span style="color:#2f80ed;">travail d’observation et de
-                        compréhension</span></strong>,
-                pas d’un audit normatif.
+                Il s’agit d’un <strong><span style="color:#2f80ed;">travail d’observation et de compréhension</span></strong>, pas d’un audit normatif.
             </p>
 
         </section>
@@ -136,11 +134,11 @@
                 <li>Une base objective pour structurer la suite
                     (
                     <span class="fast-brand">
-                        <strong>FAST</strong><span> · Align</span>
+                       <a href="fast-align.php"> <strong>FAST</strong><span> · Align</span> </a>
                     </span>
                     /
                     <span class="fast-brand">
-                        <strong>FAST</strong><span> · Framework</span>
+                        <a href="fast-framework.php"><strong>FAST</strong><span> · Framework</span></a>
                     </span>
                     )
                 </li>
@@ -149,9 +147,7 @@
             <p>
                 <span class="fast-brand">
                     <strong>FAST</strong><span> · Frame</span>
-                </span> ne fournit pas de
-                recommandations génériques,
-                mais une compréhension exploitable pour éclairer les décisions.
+                </span> Ne fournit pas de recommandations génériques, mais une compréhension exploitable pour éclairer les décisions.
             </p>
 
         </section>
@@ -168,12 +164,10 @@
             <p>
                 <span class="fast-brand">
                     <strong>FAST</strong><span> · Frame</span>
-                </span>est la première brique
-                de l’écosystème <span class="fast-brand">
+                </span>est la première brique de l’écosystème <span class="fast-brand">
                     <strong>FAST</strong><span>-QA</span>
                 </span>.
-                Elle prépare l’alignement des pratiques et la mise en place
-                d’une traçabilité factuelle et durable.
+                Elle prépare l’alignement des pratiques et la mise en place d’une traçabilité factuelle et durable.
             </p><br>
 
             <p>

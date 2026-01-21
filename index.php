@@ -92,35 +92,39 @@
 </p>
 <section class="cards" id="ecosystem">
 
+  <!-- FAST · Frame -->
   <a href="fast-frame.php" class="card card-link">
-  <div class="card-header">
-    <img src="assets/sphere-services.png" alt="" />
-    <h3>
-      <span class="fast-brand">
-        <strong>FAST</strong><span> · Frame</span>
-      </span>
-    </h3>
-  </div>
+    <div class="card-header">
+      <img src="assets/sphere-services.png" alt="" />
+      <h3>
+        <span class="fast-brand">
+          <strong>FAST</strong><span> · Frame</span>
+        </span>
+      </h3>
+    </div>
 
-  <p><strong>Audit & diagnostic QA</strong></p>
+    <p><strong>Audit & diagnostic QA</strong></p>
 
-  <ul style="list-style-type: circle;">
-    <li>Audit des pratiques QA existantes</li>
-    <li>Évaluation de la maturité qualité et de la traçabilité</li>
-    <li>Identification des risques liés à la perte de lisibilité dans le temps</li>
-  </ul>
+    <ul style="list-style-type: circle;">
+      <li>Audit des pratiques QA existantes</li>
+      <li>Évaluation de la maturité qualité et de la traçabilité</li>
+      <li>Identification des risques liés à la perte de lisibilité dans le temps</li>
+    </ul>
 
-  <p>
-    <strong>Aligner et structurer les pratiques QA sans les dénaturer.</strong>
-  </p>
-</a>
+    <p>
+      <strong>Aligner et structurer les pratiques QA sans les dénaturer.</strong>
+    </p>
+  </a>
 
-<div class="card">
+  <!-- FAST · Align -->
+  <a href="fast-align.php" class="card card-link">
     <div class="card-header">
       <img src="assets/sphere-service1.png" alt="" />
-      <span class="fast-brand">
-      <h3><strong>FAST</strong><span> · Align</span></h3>
-      </span>
+      <h3>
+        <span class="fast-brand">
+          <strong>FAST</strong><span> · Align</span>
+        </span>
+      </h3>
     </div>
 
     <p><strong>Accompagnement maturité & structuration des pratiques QA</strong></p>
@@ -134,14 +138,19 @@
     <p>
       <strong>Accompagner les équipes vers l’autonomie et la maturité QA.</strong>
     </p>
-  </div>
-  <div class="card">
+  </a>
+
+  <!-- FAST · Support -->
+  <a href="fast-support.php" class="card card-link">
     <div class="card-header">
       <img src="assets/sphere-fomration.png" alt="" />
-      <span class="fast-brand">
-      <h3><strong>FAST</strong><span>  · Support</span></h3>
-</span>
-</div>
+      <h3>
+        <span class="fast-brand">
+          <strong>FAST</strong><span> · Support</span>
+        </span>
+      </h3>
+    </div>
+
     <p><strong>Formation & accompagnement QA</strong></p>
 
     <ul style="list-style-type: circle;">
@@ -153,14 +162,17 @@
     <p>
       <strong>Former, transmettre et rendre les équipes autonomes.</strong>
     </p>
-  </div>
+  </a>
 
-  <div class="card">
+  <!-- FAST · Framework -->
+  <a href="fast-framework.php" class="card card-link">
     <div class="card-header">
       <img src="assets/sphere-framework.png" alt="" />
-      <span class="fast-brand">
-      <h3><strong>FAST</strong><span> · Framework</span></h3>
-      </span>
+      <h3>
+        <span class="fast-brand">
+          <strong>FAST</strong><span> · Framework</span>
+        </span>
+      </h3>
     </div>
 
     <p><strong>Traçabilité factuelle des tests</strong></p>
@@ -172,11 +184,15 @@
     </ul>
 
     <p>
-      <strong>Capitaliser durablement les faits de test à travers un socle technique neutre et lisible.</strong>
+      <strong>
+        Capitaliser durablement les faits de test à travers un socle technique
+        neutre et lisible.
+      </strong>
     </p>
-  </div>
+  </a>
 
 </section>
+
 <p style="margin-top:24px;">
   <a href="#top" style="color:#2f80ed; text-decoration:none; font-size:14px;">
     ↑ Retour en haut

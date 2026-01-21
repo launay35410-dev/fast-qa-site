@@ -15,7 +15,7 @@
         content="FAST · Align accompagne les équipes QA pour structurer, aligner et stabiliser les pratiques à partir de faits observés.">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/fast-frame.css"><!-- réutilisé volontairement -->
+    <link rel="stylesheet" href="assets/css/fast-frame.css">
 </head>
 
 <body>
@@ -37,7 +37,7 @@
         </button>
 
         <nav class="nav">
-            <a href="index.php#ecosystem">Écosystème</a>
+            <a href="index.php">Écosystème</a>
             <a href="index.php#problem">Pourquoi FAST</a>
             <a href="mailto:contact@fast-qa.io">Contact</a>
 
@@ -91,7 +91,7 @@
             Une fois l’existant observé et compris (
             <span class="fast-brand"><strong>FAST</strong><span> · Frame</span></span>
             ), un autre enjeu apparaît souvent :
-            <strong>comment faire évoluer la QA sans la fragiliser&nbsp;?</strong>
+            <strong style="color:#2f80ed;">Comment faire évoluer la QA sans la fragiliser&nbsp;?</strong>
         </p>
 
         <p>
@@ -154,10 +154,11 @@
             <li>Une QA plus lisible, plus stable et moins dépendante des individus</li>
             <li>
                 Un socle cohérent pour la transmission et l’outillage
-                ( <
-                    <span class="fast-brand"><strong>FAST</strong><span> · Support</span></span>
-                    /
-                 <span class="fast-brand"><strong>FAST</strong><span> · Framework</span></span>)
+
+                (
+                    <span class="fast-brand"></span>
+                    <a href="fast-support.php"><span class="fast-brand"><strong>FAST</strong><span> · Support</span></span></a> /
+                 <a href="fast-framework.php"><span class="fast-brand"><strong>FAST</strong><span> · Framework</span></span>)</a>
             </li>
         </ul>
 
@@ -184,9 +185,8 @@
         </p>
 
         <p>
-            Aucun outil n’est imposé.
-            L’accompagnement s’adapte au
-            <strong>contexte réel des équipes</strong>.
+            Aucun outil n’est imposé. L’accompagnement s’adapte au
+           <strong style="color:#2f80ed;">contexte réel des équipes</strong>.
         </p>
 
         <p style="margin-top:24px;">
@@ -198,7 +198,6 @@
     </section>
 
 </main>
-
 <footer class="footer">
     © FAST-QA 2026 — Franck Launay · Version 1.0
     <p style="margin-top:16px; font-size:14px; color:#6b7280;">
