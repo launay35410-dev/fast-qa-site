@@ -39,6 +39,7 @@
     <nav class="nav">
       <a href="#ecosystem">Ecosystem</a>
       <a href="#problem">Why FAST</a>
+      <a href="../blog/index-en.php">Blog</a>
       <a href="mailto:contact@fast-qa.io">Contact</a>
 
       <span class="lang-switch">

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Software Quality Does Not Lack Tools — FAST-QA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description"
+        content="Software quality does not lack tools. It lacks long-term readability. A FAST-QA article about traceability and sustainable QA." />
+
+    <link rel="icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- Blog CSS -->
+    <link rel="stylesheet" href="../assets/css/blog.css">
+</head>
+
+<body>
+
+<header class="header" id="top">
+    <div class="header-inner">
+        <div class="logo">
+            <img src="../assets/favicon.png" alt="FAST-QA logo" />
+            <div class="brand">
+                <strong>FAST</strong><span>-QA</span>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <a href="../en.php">Home</a>
+            <a href="../index-en.php#ecosystem">Ecosystem</a>
+            <a href="../blog/index-en.php">Blog</a>
+            <a href="mailto:contact@fast-qa.io">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container blog-article">
+
+<article>
+
+<!-- ARTICLE HEADER -->
+<header class="article-header">
+    <h1>Software Quality Does Not Lack Tools</h1>
+    <p class="article-intro">It lacks long-term readability.</p>
+
+    <div class="article-meta">
+        <span>📅 January 23, 2026</span>
+        <span>✍️ Franck Launay</span>
+        <span>⏱️ Reading time: ~7 min</span>
+    </div>
+</header>
+
+<!-- TABLE OF CONTENTS -->
+<nav class="article-toc">
+    <h2>Contents</h2>
+    <ul>
+        <li><a href="#qa-tools">QA does not lack tools</a></li>
+        <li><a href="#qa-explains">When QA produces… but no longer explains</a></li>
+        <li><a href="#time-factor">QA and the time factor</a></li>
+        <li><a href="#facts">Preserving understandable QA facts</a></li>
+        <li><a href="#fast-qa">FAST-QA: an approach before a framework</a></li>
+        <li><a href="#next">What’s next?</a></li>
+    </ul>
+</nav>
+
+<!-- SECTIONS -->
+
+<section id="qa-tools">
+    <p>In many organizations, software quality is very active.</p>
+
+    <p>
+        Tests are written, automated, executed.<br>
+        Tools are in place.<br>
+        Metrics exist.
+    </p>
+
+    <p>And yet, a simple question often comes up — sometimes too late:</p>
+
+    <blockquote>
+        Do we still clearly understand what we are testing, and why, over time?
+    </blockquote>
+</section>
+
+<section id="qa-explains">
+    <h2>When QA produces… but no longer explains</h2>
+
+    <p>Over time, QA is built through accumulation:</p>
+
+    <ul>
+        <li>test scenarios,</li>
+        <li>test campaigns,</li>
+        <li>reports,</li>
+        <li>results coming from multiple tools.</li>
+    </ul>
+
+    <p>
+        This accumulation creates an illusion of control.<br>
+        But it also leads to a well-known effect in the field:
+    </p>
+
+    <ul>
+        <li>the meaning of tests fades,</li>
+        <li>links between requirements, scenarios and results disappear,</li>
+        <li>decisions rely more on interpretation than on clearly readable facts.</li>
+    </ul>
+
+    <blockquote>👉 This is a long-term readability problem.</blockquote>
+</section>
+
+<section id="time-factor">
+    <h2>QA is particularly exposed to the time factor</h2>
+
+    <ul>
+        <li>teams change,</li>
+        <li>tools evolve,</li>
+        <li>projects come and go,</li>
+        <li>business contexts shift.</li>
+    </ul>
+
+    <p>
+        We know tests have been executed.<br>
+        But we no longer clearly know what they actually cover,
+        what they prove, or how to link them to decisions that were made.
+    </p>
+</section>
+
+<section id="facts">
+    <h2>The real challenge: preserving understandable QA facts</h2>
+
+    <ul>
+        <li>readable,</li>
+        <li>contextualized,</li>
+        <li>linked to requirements,</li>
+        <li>usable without constant reinterpretation.</li>
+    </ul>
+</section>
+
+<section id="fast-qa">
+    <h2>FAST-QA: an approach before a technical framework</h2>
+
+    <ul>
+        <li><strong><a href="../fast-frame-en.php">FAST · Frame</a></strong> — fact-based diagnosis</li>
+        <li><strong><a href="../fast-align-en.php">FAST · Align</a></strong> — aligning practices</li>
+        <li><strong><a href="../fast-support-en.php">FAST · Support</a></strong> — long-term transmission</li>
+        <li><strong><a href="../fast-framework-en.php">FAST · Framework</a></strong> — capitalizing QA facts</li>
+    </ul>
+</section>
+
+<section id="next">
+    <h2>What’s next?</h2>
+
+    <blockquote>
+        What will remain of your QA in one year… and will it still be understandable?
+    </blockquote>
+
+    <p><em>To be continued.</em></p>
+</section>
+
+<!-- ARTICLE NAV -->
+<nav class="article-nav">
+    <a href="../blog/index-en.php">← Back to blog</a>
+    <a href="#" class="next-article">Next article →</a>
+</nav>
+
+</article>
+</main>
+
+<footer class="footer">
+    © FAST-QA 2026 — Franck Launay
+</footer>
+
+</body>
+</html>

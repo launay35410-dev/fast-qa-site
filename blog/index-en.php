@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>FAST-QA Blog — Durable Software Quality & QA Facts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description"
+        content="FAST-QA blog: insights, field feedback and analysis on durable software quality, traceability and fact-based QA." />
+
+  <link rel="icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <!-- Blog CSS -->
+  <link rel="stylesheet" href="../assets/css/blog.css">
+</head>
+
+<body>
+
+<header class="header" id="top">
+  <div class="header-inner">
+    <div class="logo">
+      <img src="../assets/favicon.png" alt="FAST-QA logo" />
+      <div class="brand">
+        <strong>FAST</strong><span>-QA</span>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="../en.php">Home</a>
+      <a href="../en.php">Ecosystem</a>
+      <a href="./index-en.php" class="active">Blog</a>
+      <a href="mailto:contact@fast-qa.io">Contact</a>
+
+      <span class="lang-switch">
+        <a href="./index.html">FR</a> |
+        <a href="#" class="active">EN</a>
+      </span>
+    </nav>
+  </div>
+</header>
+
+<main class="container blog-index">
+
+  <!-- BLOG HEADER -->
+  <header class="blog-header">
+    <h1>FAST-QA Blog</h1>
+    <p class="blog-intro">
+      Thoughts, field feedback and analysis around
+      <strong>durable software quality</strong>,
+      <strong>traceability</strong> and <strong>QA facts</strong>.
+    </p>
+  </header>
+
+  <!-- ARTICLES LIST -->
+  <section class="blog-list">
+
+    <!-- PUBLISHED ARTICLE -->
+    <article class="blog-card">
+
+      <h2 class="blog-title">
+        <a href="qa-lisibilite-temps-en.php#qa-tools">
+          Software quality does not lack tools
+        </a>
+      </h2>
+
+      <p class="blog-subtitle">
+        It lacks long-term readability.
+      </p>
+
+      <p class="blog-excerpt">
+        Why QA produces more and more but explains less over time,
+        how the meaning of tests fades,
+        and why traceability becomes a critical long-term challenge.
+      </p>
+
+      <div class="blog-meta">
+        <span>📅 January 23, 2026</span>
+        <span>⏱️ ~7 min read</span>
+        <span>🧩 FAST-QA perspective</span>
+      </div>
+
+      <a class="blog-read-more"
+         href="qa-lisibilite-temps-en.php#qa-tools">
+        Read the article →
+      </a>
+
+    </article>
+
+    <!-- COMING SOON -->
+    <article class="blog-card blog-soon">
+      <h2>Coming soon</h2>
+      <p>
+        QA diagnostics, long-term traceability,
+        fact-based test reading,
+        FAST-QA field feedback and insights…
+      </p>
+    </article>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  © FAST-QA 2026 — Franck Launay
+</footer>
+
+</body>
+</html>
